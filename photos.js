@@ -5,7 +5,6 @@
     Filename: photos.js
  */
 
-
 "use strict"; // interpret document contents in JavaScript strict mode
 
 /* global variables */
@@ -19,7 +18,6 @@ function populateFigures() {
     if (figureCount === 3) {
         var filename;
         var currentFig;
-
             for (var i = 1;  i < 4;  i++) {
                 filename = "images/IMG_0" + photoOrder[i] + "sm.jpg";
                 currentFig = document.getElementsByTagName("img")[i -1];
